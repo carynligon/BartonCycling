@@ -1,10 +1,41 @@
-<<<<<<< HEAD
 @import "bourbon/bourbon";
 @import "neat/neat";
 
-section {
-  width: 100%;
+header {
+    background-image: url("https://images.unsplash.com/photo-1452117774045-dfd7a5e9718c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9c294dfdcfbbdce31b2ee1723020d650");
+    background-size: cover;
+    background-position: bottom;
+    height: 24rem;
 }
+
+.logo-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.logo {
+    width: 50px;
+    opacity: 0.5;
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    width: 32%;
+    margin-left: 2rem;
+}
+
+.slogan {
+    text-align: center;
+    width: 52%;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+section {
+        width: 100%;
+    }
 
 .photo {
   width: 33.3%;
@@ -15,124 +46,65 @@ section {
     width: 100%;
     margin: 0;
   }
-  &:hover {
-    @include transform(scale(1.05));
-    transition: (all 1s ease-in-out);
-  }
-}
-
-.text-box {
-  width: 100%;
-  text-align: center;
-  span {
-    padding: 2rem;
-    font-size: 1.5rem;
-    display: inline-block;
-    font-family: sans-serif;
-  }
-}
-
-@media screen and (max-width:500px) {
-  .image1 {
-    @include span-columns(12);
-    img {
-      width: 100%;
+    &:hover {
+        @include transform(scale(1.05));
+        transition: (all 1s ease-in-out);
     }
   }
-  .image2, .image3 {
-    display: none;
-  }
+
   .text-box {
-    display: none;
-  }
-=======
-<<<<<<< HEAD
-// header {
-//   height: 24rem;
-// }
-.header {
-    background-image: url("https://images.unsplash.com/photo-1452117774045-dfd7a5e9718c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9c294dfdcfbbdce31b2ee1723020d650");
-    background-size: cover;
-    background-position: bottom;
-    height: 24rem;
-  }
-
-    // div {
-    //   width: 100%;
-    //   margin: 0 auto;
-    //   display: block;
-
-    img {
-    width: 50px;
-    opacity: .5;
-    height: 50px;
-    }
-    h1 {
+    width: 100%;
     text-align: center;
-    position: relative;
-    top: -17rem;
-    width: 32%;
-    margin-left: 2rem;
+    span {
+        padding: 2rem;
+        font-size: 1.5rem;
+        display: inline-block;
+        font-family: sans-serif;
+      }
     }
 
-p {
-      text-align: center;
-      width: 52%;
-      margin: 0 auto;
-      font-size: 2rem;
+    footer {
+        width: 100%;
+    }
+    .visit {
+        text-align: center;
+        font-size: 40px;
+        width: 60%;
+        margin: auto;
+    }
+    .phone {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .email {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .date {
+        background: gray;
+        width: 100%;
+        text-align: center;
+    }
+    .date p {
+        font-size: 2em;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
 
-  }
-
-.logo {
-  height: 100px;
-  width: 100px;
-=======
-$font-stack:    Verdana, sans-serif;
-
-
-
-
-footer{
-  width:100%;
-
-}
-
-
-footer {
-
-  .visit {
-    text-align: center;
-    font-size: 40px;
-    width:60%;
-    margin: auto;
-  }
-
-  .phone {
-text-align: center;
-font-size: 30px;
-font-weight: bold;
-   }
-
-.email{
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-
-  .date {
-  background:gray;
-  width:100%;
-  text-align: center;
-  }
-
-.date p {
-  font-size: 2em;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-
->>>>>>> 6e5df7d9b630aca75d43779195d38d2332d00dda
->>>>>>> e0e76ddcd59631aa58506611525a9f5d2488bc83
-}
+    @media screen and (max-width:500px) {
+        .image1 {
+            @include span-columns(12);
+        }
+        .image2,
+        .image3 {
+            display: none;
+        }
+        .text-box {
+            display: none;
+        }
+        .photo img {
+            width: 100%;
+        }
+    }
