@@ -51,7 +51,7 @@ section {
   .image2, .image3 {
     display: none; }
 
-  .text-box span {
-    font-size: 1rem; } }
+  .text-box {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
