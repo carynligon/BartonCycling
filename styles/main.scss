@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // header {
 //   height: 24rem;
 // }
@@ -37,4 +38,52 @@ p {
 .logo {
   height: 100px;
   width: 100px;
+=======
+$font-stack:    Verdana, sans-serif;
+
+
+
+
+footer{
+  width:100%;
+
+}
+
+
+footer {
+
+  .visit {
+    text-align: center;
+    font-size: 40px;
+    width:60%;
+    margin: auto;
+  }
+
+  .phone {
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+   }
+
+.email{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+  .date {
+  background:gray;
+  width:100%;
+  text-align: center;
+  }
+
+.date p {
+  font-size: 2em;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+
+>>>>>>> 6e5df7d9b630aca75d43779195d38d2332d00dda
 }
