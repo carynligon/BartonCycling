@@ -1,3 +1,29 @@
+.header {
+  background-image: url("https://images.unsplash.com/photo-1452117774045-dfd7a5e9718c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9c294dfdcfbbdce31b2ee1723020d650");
+  background-size: cover;
+  background-position: bottom;
+  height: 24rem; }
 
+img {
+  width: 50px;
+  opacity: .5;
+  height: 50px; }
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: -17rem;
+  width: 32%;
+  margin-left: 2rem; }
+
+p {
+  text-align: center;
+  width: 52%;
+  margin: 0 auto;
+  font-size: 2rem; }
+
+.logo {
+  height: 100px;
+  width: 100px; }
 
 /*# sourceMappingURL=main.css.map */
