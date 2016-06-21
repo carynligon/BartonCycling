@@ -1,3 +1,26 @@
+footer {
+  width: 100%; }
 
+footer .visit {
+  text-align: center;
+  font-size: 40px;
+  width: 60%;
+  margin: auto; }
+footer .phone {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold; }
+footer .email {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold; }
+footer .date {
+  background: gray;
+  width: 100%;
+  text-align: center; }
+footer .date p {
+  font-size: 2em;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
 
 /*# sourceMappingURL=main.css.map */
