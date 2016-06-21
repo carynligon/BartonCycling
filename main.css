@@ -1,3 +1,57 @@
+html {
+  box-sizing: border-box; }
 
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+section {
+  width: 100%; }
+
+.photo {
+  width: 33.3%;
+  margin: 0;
+  overflow: hidden;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .photo:last-child {
+    margin-right: 0; }
+  .photo img {
+    width: 100%;
+    margin: 0; }
+  .photo:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: all 1s ease-in-out; }
+
+.text-box {
+  width: 100%;
+  text-align: center; }
+  .text-box span {
+    padding: 2rem;
+    font-size: 1.5rem;
+    display: inline-block;
+    font-family: sans-serif; }
+
+@media screen and (max-width: 500px) {
+  .image1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .image1:last-child {
+      margin-right: 0; }
+    .image1 img {
+      width: 100%; }
+
+  .image2, .image3 {
+    display: none; }
+
+  .text-box span {
+    font-size: 1rem; } }
 
 /*# sourceMappingURL=main.css.map */
