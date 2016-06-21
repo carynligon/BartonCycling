@@ -1,4 +1,61 @@
 <<<<<<< HEAD
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+section {
+  width: 100%; }
+
+.photo {
+  width: 33.3%;
+  margin: 0;
+  overflow: hidden;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .photo:last-child {
+    margin-right: 0; }
+  .photo img {
+    width: 100%;
+    margin: 0; }
+  .photo:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: all 1s ease-in-out; }
+
+.text-box {
+  width: 100%;
+  text-align: center; }
+  .text-box span {
+    padding: 2rem;
+    font-size: 1.5rem;
+    display: inline-block;
+    font-family: sans-serif; }
+
+@media screen and (max-width: 500px) {
+  .image1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .image1:last-child {
+      margin-right: 0; }
+    .image1 img {
+      width: 100%; }
+
+  .image2, .image3 {
+    display: none; }
+
+  .text-box {
+    display: none; } }
+=======
+<<<<<<< HEAD
 .header {
   background-image: url("https://images.unsplash.com/photo-1452117774045-dfd7a5e9718c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9c294dfdcfbbdce31b2ee1723020d650");
   background-size: cover;
@@ -52,5 +109,6 @@ footer .date p {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem; }
 >>>>>>> 6e5df7d9b630aca75d43779195d38d2332d00dda
+>>>>>>> e0e76ddcd59631aa58506611525a9f5d2488bc83
 
 /*# sourceMappingURL=main.css.map */
